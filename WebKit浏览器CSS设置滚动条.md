@@ -9,8 +9,7 @@
 - ::-webkit-resizer 定义右下角拖动块的样式
 
 具体所指如下图:
-
-!()[imgs/webkit_scrollbar.png]
+![](imgs/webkit_scrollbar.png)
 
  上面是滚动条的主要设置属性，还有更详尽的CSS属性伪类，可以更丰富滚动条样式。
 
