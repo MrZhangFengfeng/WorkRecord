@@ -30,3 +30,16 @@
 ### 一个#和三个###的区别
 - a标签内 href="#",如果有滚动条点击之后会回到顶部去。
 - a标签内 href="###"，如果有滚动条点击之后**不会**回到顶部去
+
+- - -
+### setState
+定义为相同名字的时候可以直接setState，不用username：...;
+
+
+     this.state={username="winter"}
+     constant username = ...;
+     this.setState({username})
+          
+
+- - -
+### 
