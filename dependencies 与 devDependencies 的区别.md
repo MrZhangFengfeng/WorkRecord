@@ -4,8 +4,8 @@ npm install 在安装 npm 包时，有两种命令参数可以把它们的信息
 
     –save
     –save-dev
-    
-但它的文档里1，只提到一个小区别，--save 会把依赖包名称添加到 package.json 文件 dependencies 键下，
+    
+在它的文档里，有一个小区别，--save 会把依赖包名称添加到 package.json 文件 dependencies 键下，
 --save-dev 则添加到 package.json 文件 devDependencies 键下，譬如：
 
     {
