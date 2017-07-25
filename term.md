@@ -24,5 +24,5 @@
       manipulate ：操作,
       couple : 一对,
       shuffle :　拖曳,
-      compression : 压缩,   
-    }
+      compression : 压缩,
+      }
