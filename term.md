@@ -19,5 +19,11 @@
       Widget :窗口小部件,
       alpha : 最初、开端,
       navigation : 导航,
-      
-    }
+      nested routes:嵌套路由,
+      decoupled ：解耦,
+      manipulate ：操作,
+      couple : 一对,
+      shuffle :　拖曳,
+      compression : 压缩,
+      
+    }
