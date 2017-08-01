@@ -42,4 +42,10 @@
           
 
 - - -
-### 
+### 遍历obj
+     let obj ={1:"winter",2:"summer"}
+- obj.1    //报错的
+- obj.forEach(function(item){...})    //啥也log不出来
+- for(item in obj){...}   //没问题  
+
+所以当key值为number的时候  使用for in 来遍历。
