@@ -22,7 +22,10 @@ num	必需。规定小数的位数，是 0 ~ 20 之间的值，包括 0 和 20�
     let num=0.066;
     num = Math.round(num*Math.pow(10,2))/Math.pow(10,2)
     console.log(num) //0.07
+- - -
+## 另外还有一个坑！
 
+>  Math.round(num)    当里面的num达到千兆的时候可以  一旦达到万兆就会出现意想不到的错。
 - - -
 #### 和上面无关的一个随笔记录
 
