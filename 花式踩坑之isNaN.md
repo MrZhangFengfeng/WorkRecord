@@ -31,3 +31,22 @@
 `Number.isNaN` 和 `isNaN` 有何区别呢？
 - `isNaN()`会强制将参数转换成数字
 - `Number.isNaN`不会强制将参数转换成数字，只有在参数是真正的数字类型，且值为 `NaN` 的时候才会返回 `true`。
+
+- - - 
+### Examples
+    
+    isNaN("")         //false
+    Number.isNaN("")  //false
+    
+    isNaN("dd")         //true
+    Number.isNaN("dd")  //false
+    
+    isNaN(null)         //false
+    Number.isNaN(null)  //false
+    
+    isNaN(0)            //true
+    Number.isNaN(0)     //false
+    
+    isNaN(undefined)         //true
+    Number.isNaN(undefined)  //false
+    
